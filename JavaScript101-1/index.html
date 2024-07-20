@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karşılama Ekranı</title>
+    <link rel="stylesheet" href="cssfile.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hoş geldiniz!</h1>
+        <div id="welcome-section">
+            <input type="text" id="name-input" placeholder="Adınızı girin">
+            <button onclick="submitName()">Gönder</button>
+        </div>
+        <div id="clock-section" style="display: none;">
+            <h2 id="greeting-message"></h2>
+            <p id="clock"></p>
+            <p id="date"></p>
+        </div>
+    </div>
+    <script src="jsfile.js"></script>
+</body>
+</html>
